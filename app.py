@@ -39,8 +39,8 @@ mappings = {
         "Strength training (e.g., weightlifting, resistance exercises)": 2,
         "Flexibility and balance (e.g., yoga, pilates)": 3,
         "High-intensity interval training (HIIT)": 4,
-        "Cardio + Strength training": 5,
-        "Cardio + Flexibility": 6
+        "Cardio (e.g., running, cycling, swimming), Strength training (e.g., weightlifting, resistance exercises)": 5,
+        "Cardio (e.g., running, cycling, swimming), Flexibility and balance (e.g., yoga, pilates)": 6
     },
     "Exercise Duration": {
         "Not Applicable": 0, "Less than 30 minutes": 1,
