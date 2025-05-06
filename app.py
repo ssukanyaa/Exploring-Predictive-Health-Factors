@@ -8,7 +8,7 @@ st.set_page_config(page_title="PCOS Prediction", layout="centered")
 st.title("💊 PCOS Prediction App")
 st.markdown("This app predicts the likelihood of PCOS based on input medical features.")
 
-model = joblib.load("pcos_model.pkl") 
+model = joblib.load("pcos_model_rf.pkl") 
 
 age = st.selectbox("Age (years)", ["15-20","20-25","25-30","30-35","35-44","44 and above"])
 hormonal_imbalance = st.selectbox("Hormonal Imbalance", ["Yes", "No"])
