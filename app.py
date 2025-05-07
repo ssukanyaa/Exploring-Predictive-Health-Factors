@@ -8,7 +8,7 @@ st.title("💊 PCOS Prediction App")
 st.markdown("This app predicts the likelihood of PCOS based on input medical features.")
 
 # Load the full model pipeline (preprocessing + model)
-model = joblib.load("pcos_model_rf.pkl")  # NOTE: This should be the full pipeline, not just the model
+model = joblib.load("pcos_rf_pipeline.pkl")  # NOTE: This should be the full pipeline, not just the model
 
 # Collect user inputs
 age = st.selectbox("Age (years)", ["15-20", "20-25", "25-30", "30-35", "35-44", "44 and above"])
