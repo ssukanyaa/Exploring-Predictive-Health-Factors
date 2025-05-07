@@ -17,7 +17,7 @@ hirsutism = st.selectbox("Hirsutism (Excess Hair Growth)", ["Yes", "No"])
 conception_diff = st.selectbox("Difficulty in Conception", ["Yes", "No"])
 insulin_resistance = st.selectbox("Insulin Resistance", ["Yes", "No"])
 exercise_freq = st.selectbox("Exercise Frequency", ["Rarely", "1-2 Times a Week","3-4 Times a Week","6-8 Times a Week", "Never"])
-exercise_type = st.selectbox("Type of Exercise", ["No Excercise", "Cardio (e.g., running, cycling, swimming)", "Strength training (e.g., weightlifting, resistance exercises)", "Flexibility and balance (e.g., yoga, pilates)","High-intensity interval training (HIIT)",
+exercise_type = st.selectbox("Exercise Type", ["No Excercise", "Cardio (e.g., running, cycling, swimming)", "Strength training (e.g., weightlifting, resistance exercises)", "Flexibility and balance (e.g., yoga, pilates)","High-intensity interval training (HIIT)",
                                                  "Cardio (e.g., running, cycling, swimming), Strength training (e.g., weightlifting, resistance exercises)","Cardio (e.g., running, cycling, swimming), Flexibility and balance (e.g., yoga, pilates)"])
 exercise_duration = st.selectbox("Duration of Exercise", ["Not Applicable", "Less than 30 minutes", "30 minutes","45 minutes", "More than 30 minutes"])
 sleep_hours = st.selectbox("Average Sleep Hours", ["3-4 hours", "Less than 6 hours", "6-8 hours", "9-12 hours", "More than 12 hours"])
